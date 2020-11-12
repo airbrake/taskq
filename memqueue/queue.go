@@ -8,9 +8,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/vmihailenco/taskq/v2"
-	"github.com/vmihailenco/taskq/v2/internal"
-	"github.com/vmihailenco/taskq/v2/internal/msgutil"
+	"github.com/airbrake/taskq/v2"
+	"github.com/airbrake/taskq/v2/internal"
+	"github.com/airbrake/taskq/v2/internal/msgutil"
 )
 
 type Queue struct {

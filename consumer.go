@@ -10,8 +10,8 @@ import (
 
 	"golang.org/x/time/rate"
 
-	"github.com/vmihailenco/taskq/v2/internal"
-	"github.com/vmihailenco/taskq/v2/internal/redislock"
+	"github.com/airbrake/taskq/v2/internal"
+	"github.com/airbrake/taskq/v2/internal/redislock"
 )
 
 const stopTimeout = 30 * time.Second

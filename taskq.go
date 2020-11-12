@@ -9,7 +9,7 @@ import (
 
 	"github.com/go-redis/redis/v7"
 	"github.com/hashicorp/golang-lru/simplelru"
-	"github.com/vmihailenco/taskq/v2/internal"
+	"github.com/airbrake/taskq/v2/internal"
 	"golang.org/x/time/rate"
 )
 

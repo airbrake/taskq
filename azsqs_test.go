@@ -7,8 +7,8 @@ import (
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/sqs"
 
-	"github.com/vmihailenco/taskq/v2"
-	"github.com/vmihailenco/taskq/v2/azsqs"
+	"github.com/airbrake/taskq/v2"
+	"github.com/airbrake/taskq/v2/azsqs"
 )
 
 var accountID string

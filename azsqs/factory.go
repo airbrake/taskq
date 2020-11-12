@@ -5,8 +5,8 @@ import (
 
 	"github.com/aws/aws-sdk-go/service/sqs"
 
-	"github.com/vmihailenco/taskq/v2"
-	"github.com/vmihailenco/taskq/v2/internal/base"
+	"github.com/airbrake/taskq/v2"
+	"github.com/airbrake/taskq/v2/internal/base"
 )
 
 type factory struct {

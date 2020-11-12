@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/vmihailenco/taskq/v2"
-	"github.com/vmihailenco/taskq/v2/memqueue"
+	"github.com/airbrake/taskq/v2"
+	"github.com/airbrake/taskq/v2/memqueue"
 )
 
 func BenchmarkCallAsync(b *testing.B) {

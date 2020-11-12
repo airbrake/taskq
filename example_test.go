@@ -9,8 +9,8 @@ import (
 
 	"golang.org/x/time/rate"
 
-	"github.com/vmihailenco/taskq/v2"
-	"github.com/vmihailenco/taskq/v2/memqueue"
+	"github.com/airbrake/taskq/v2"
+	"github.com/airbrake/taskq/v2/memqueue"
 )
 
 func timeSince(start time.Time) time.Duration {

@@ -3,8 +3,8 @@ package taskq_test
 import (
 	"testing"
 
-	"github.com/vmihailenco/taskq/v2"
-	"github.com/vmihailenco/taskq/v2/redisq"
+	"github.com/airbrake/taskq/v2"
+	"github.com/airbrake/taskq/v2/redisq"
 )
 
 func redisqFactory() taskq.Factory {
