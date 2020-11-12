@@ -1,14 +1,12 @@
 # Golang asynchronous task/job queue with Redis, SQS, IronMQ, and in-memory backends
 
-[![Build Status](https://travis-ci.org/vmihailenco/taskq.svg)](https://travis-ci.org/vmihailenco/taskq)
-[![GoDoc](https://godoc.org/github.com/vmihailenco/taskq?status.svg)](https://godoc.org/github.com/vmihailenco/taskq)
 
 ## Installation
 
 taskq requires a Go version with [Modules](https://github.com/golang/go/wiki/Modules) support and uses import versioning. So please make sure to initialize a Go module before installing taskq:
 
 ```bash
-go get github.com/vmihailenco/taskq/v2
+go get github.com/airbrake/taskq/v2
 ```
 
 ## Features
